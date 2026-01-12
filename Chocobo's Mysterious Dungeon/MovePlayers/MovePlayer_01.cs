@@ -17,24 +17,19 @@ internal class MovePlayer_01
     public Result PlayerMove(ConsoleKey inputKey)
     {
         Object.Position nextPosition = _player_01.PlayerPosition;
-        Object.eMoveDir dir = Object.eMoveDir.NONE;
 
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                dir = Object.eMoveDir.UP;
                 nextPosition.X--;
                 break;
             case ConsoleKey.DownArrow:
-                dir = Object.eMoveDir.DOWN;
                 nextPosition.X++;
                 break;
             case ConsoleKey.LeftArrow:
-                dir = Object.eMoveDir.LEFT;
                 nextPosition.Y--;
                 break;
             case ConsoleKey.RightArrow:
-                dir = Object.eMoveDir.RIGHT;
                 nextPosition.Y++;
                 break;
             default:

@@ -1,22 +1,22 @@
 ﻿using System;
 
 
-internal class MovePlayer
+public class MoveMonster
 {
-    Player _player;
+    Monster _monster;
     Tutorial_Dungeon _tutorial_Dungeon;
 
     bool _onGoal = false;
 
-    public MovePlayer(Player player, Tutorial_Dungeon tutorial_Dungeon)
+    public MoveMonster(Monster monster, Tutorial_Dungeon tutorial_Dungeon)
     {
-        _player = player;
+        _monster = monster;
         _tutorial_Dungeon = tutorial_Dungeon;
     }
 
-    public Result PlayerMove(ConsoleKey inputKey)
+    public Result MonsterMove(ConsoleKey inputKey)
     {
-        Object.Position nextPosition = _player.PlayerPosition;
+        Object.Position nextPosition = _monster.MonsterPosition;
 
         switch (inputKey)
         {
@@ -46,11 +46,11 @@ internal class MovePlayer
         if (_onGoal)
         {
             _onGoal = false;
-            _tutorial_Dungeon.SetObject(_player.PlayerPosition.X, _player.PlayerPosition.Y, Object.GOAL);
+            _tutorial_Dungeon.SetObject(_monster.MonsterPosition.X, _monster.MonsterPosition.Y, Object.GOAL);
         }
         else
         {
-            _tutorial_Dungeon.SetObject(_player.PlayerPosition.X, _player.PlayerPosition.Y, Object.EMPTY);
+            _tutorial_Dungeon.SetObject(_monster.MonsterPosition.X, _monster.MonsterPosition.Y, Object.EMPTY);
         }
 
         if (_tutorial_Dungeon.GetObject(nextPosition.X, nextPosition.Y) == Object.GOAL)
@@ -63,7 +63,7 @@ internal class MovePlayer
             _tutorial_Dungeon.SetObject(nextPosition.X, nextPosition.Y, Object.PLAYER);
         }
 
-        _player.Move(nextPosition);
+        _monster.Move(nextPosition);
 
         return Result.Success();
     }

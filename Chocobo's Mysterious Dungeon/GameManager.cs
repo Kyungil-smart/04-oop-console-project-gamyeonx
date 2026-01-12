@@ -34,7 +34,7 @@ public class GameManager
         Thread.Sleep(1000);
         Console.Clear();
         */
-        /*
+        
         _story.PrintTutorial();
 
         while (true)
@@ -99,7 +99,7 @@ public class GameManager
                 break;
             }
         }
-        */
+        
         Console.Clear();
         _story.PrintTutorial3();
 
@@ -146,7 +146,17 @@ public class GameManager
 
             ConsoleKey inputKey = _player_Last.UserInput();
 
-            Result result = _movePlayer_Last.PlayerMove(inputKey);                  
+            Result result = _movePlayer_Last.PlayerMove(inputKey);
+
+            int BossHP = 0;
+
+            if (BossHP == 0)
+            {
+                Console.WriteLine("🎉Victory!");
+                Thread.Sleep(1000);
+                break;
+            }
+
         }
 
         /*
