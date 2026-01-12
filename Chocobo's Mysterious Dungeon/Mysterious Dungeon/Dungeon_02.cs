@@ -8,7 +8,6 @@ public class Dungeon_02
     private string[,] _map;
     int _width;
     int _height;
-    int _random;
 
     public void Init()
     {
@@ -151,6 +150,13 @@ public class Dungeon_02
         SpawnEmptyObject(out int X, out int Y);
         SetObject(X, Y, Object.PLAYER);
         player_02.Init(X, Y);
+    }
+
+    public void SpawnGhost(Ghost ghost)
+    {
+        SpawnEmptyObject(out int X, out int Y);
+        SetObject(X, Y, Object.GHOST);
+        ghost.Init(X, Y);
     }
 
     public void SpawnObject(string objectString)

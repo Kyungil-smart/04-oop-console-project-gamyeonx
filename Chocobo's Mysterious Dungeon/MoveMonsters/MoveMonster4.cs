@@ -1,14 +1,14 @@
 ﻿using System;
 
 
-public class MoveMonster
+public class MoveMonster4
 {
     Monster _monster;
     Dungeon_01 _dungeon_01;
 
     bool _onGoal = false;
 
-    public MoveMonster(Monster monster, Dungeon_01 dungeon_01)
+    public MoveMonster4(Monster monster, Dungeon_01 dungeon_01)
     {
         _monster = monster;
         _dungeon_01 = dungeon_01;
@@ -21,16 +21,16 @@ public class MoveMonster
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                nextPosition.X++;
-                break;
-            case ConsoleKey.DownArrow:
-                nextPosition.Y--;
-                break;
-            case ConsoleKey.LeftArrow:
                 nextPosition.Y++;
                 break;
-            case ConsoleKey.RightArrow:
+            case ConsoleKey.DownArrow:
+                nextPosition.X++;
+                break;
+            case ConsoleKey.LeftArrow:
                 nextPosition.X--;
+                break;
+            case ConsoleKey.RightArrow:
+                nextPosition.Y--;
                 break;
             default:
                 return Result.Fail();

@@ -8,7 +8,6 @@ public class Dungeon_Last
     private string[,] _map;
     int _width;
     int _height;
-    int _random;
 
     public void Init()
     {
@@ -44,6 +43,8 @@ public class Dungeon_Last
             _map[1, 8] = Object.DUMMY_01;
             _map[8, 8] = Object.DUMMY_03;
             _map[8, 1] = Object.DUMMY_04;
+            _map[3, 5] = Object.BABY;
+            _map[1, 4] = Object.BOSS;
             
     }
 

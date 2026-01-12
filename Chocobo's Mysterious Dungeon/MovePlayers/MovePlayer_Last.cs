@@ -38,7 +38,7 @@ public class MovePlayer_Last
 
         string _tatgetTutorial = _dungeon_Last.GetObject(nextPosition.X, nextPosition.Y);
 
-        if (_tatgetTutorial == Object.WALL)
+        if (_tatgetTutorial == Object.WALL || _tatgetTutorial == Object.BOSS)
         {
             return Result.Fail();
         }

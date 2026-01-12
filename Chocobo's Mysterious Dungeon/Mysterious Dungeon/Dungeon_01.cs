@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using static Object;
 
 
 public class Dungeon_01
@@ -8,7 +10,6 @@ public class Dungeon_01
     private string[,] _map;
     int _width;
     int _height;
-    int _random;
 
     public void Init()
     {
@@ -106,6 +107,13 @@ public class Dungeon_01
         player_01.Init(X, Y);
     }
 
+    public void SpawnMonster(Monster monster)
+    {
+        SpawnEmptyObject(out int X, out int Y);
+        SetObject(X, Y, Object.MONSTER);
+        monster.Init(X, Y);
+    }
+
     public void SpawnObject(string objectString)
     {
         SpawnEmptyObject(out int X, out int Y);
@@ -123,4 +131,10 @@ public class Dungeon_01
         }
     }
 }
+
+
+
+
+
+
 
