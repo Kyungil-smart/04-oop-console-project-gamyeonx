@@ -1,22 +1,22 @@
 ﻿using System;
 
 
-internal class MovePlayer
+public class MovePlayer_Last
 {
-    Player _player;
-    Tutorial_Dungeon _tutorial_Dungeon;
+    Player_Last _player_Last;
+    Dungeon_Last _dungeon_Last;
 
     bool _onGoal = false;
 
-    public MovePlayer(Player player, Tutorial_Dungeon tutorial_Dungeon)
+    public MovePlayer_Last(Player_Last player_Last, Dungeon_Last dungeon_Last)
     {
-        _player = player;
-        _tutorial_Dungeon = tutorial_Dungeon;
+        _player_Last = player_Last;
+        _dungeon_Last = dungeon_Last;
     }
 
     public Result PlayerMove(ConsoleKey inputKey)
     {
-        Object.Position nextPosition = _player.PlayerPosition;
+        Object.Position nextPosition = _player_Last.PlayerPosition;
         Object.eMoveDir dir = Object.eMoveDir.NONE;
 
         switch (inputKey)
@@ -41,7 +41,7 @@ internal class MovePlayer
                 return Result.Fail();
         }
 
-        string _tatgetTutorial = _tutorial_Dungeon.GetObject(nextPosition.X, nextPosition.Y);
+        string _tatgetTutorial = _dungeon_Last.GetObject(nextPosition.X, nextPosition.Y);
 
         if (_tatgetTutorial == Object.WALL)
         {
@@ -51,25 +51,26 @@ internal class MovePlayer
         if (_onGoal)
         {
             _onGoal = false;
-            _tutorial_Dungeon.SetObject(_player.PlayerPosition.X, _player.PlayerPosition.Y, Object.GOAL);
+            _dungeon_Last.SetObject(_player_Last.PlayerPosition.X, _player_Last.PlayerPosition.Y, Object.GOAL);
         }
         else
         {
-            _tutorial_Dungeon.SetObject(_player.PlayerPosition.X, _player.PlayerPosition.Y, Object.EMPTY);
+            _dungeon_Last.SetObject(_player_Last.PlayerPosition.X, _player_Last.PlayerPosition.Y, Object.EMPTY);
         }
 
-        if (_tutorial_Dungeon.GetObject(nextPosition.X, nextPosition.Y) == Object.GOAL)
+        if (_dungeon_Last.GetObject(nextPosition.X, nextPosition.Y) == Object.GOAL)
         {
-            _tutorial_Dungeon.SetObject(nextPosition.X, nextPosition.Y, Object.PLAYER_ON_GOAL);
+            _dungeon_Last.SetObject(nextPosition.X, nextPosition.Y, Object.PLAYER_ON_GOAL);
             _onGoal = true;
         }
         else
         {
-            _tutorial_Dungeon.SetObject(nextPosition.X, nextPosition.Y, Object.PLAYER);
+            _dungeon_Last.SetObject(nextPosition.X, nextPosition.Y, Object.PLAYER);
         }
 
-        _player.Move(nextPosition);
+        _player_Last.Move(nextPosition);
 
         return Result.Success();
     }
 }
+

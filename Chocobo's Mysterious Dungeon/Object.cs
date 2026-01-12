@@ -7,6 +7,10 @@ public class Object
     public static readonly string PLAYER = "🐤";
     public static readonly string GOAL = "🕳️";
     public static readonly string PLAYER_ON_GOAL = "🐥";
+    public static readonly string DUMMY_01 = "🐣";
+    public static readonly string DUMMY_02 = "🩻";
+    public static readonly string DUMMY_03 = "🦴";
+    public static readonly string DUMMY_04 = "💩";
 
     public struct Position
     {
@@ -19,7 +23,7 @@ public class Object
         DOWN,
         LEFT,
         RIGHT,
-     
+
 
         NONE
     }

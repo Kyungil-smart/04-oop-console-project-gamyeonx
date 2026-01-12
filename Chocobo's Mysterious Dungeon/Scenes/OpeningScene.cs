@@ -22,11 +22,11 @@ internal class OpeningScene
         var ts = new[] { Task.Run(PlayBgm), Task.Run(AnimateChicks) };
         ShowLogo();
 
-        ts[0].Wait(); 
+        ts[0].Wait();
         _run = false;
         ts[1].Wait();
 
-       
+
         ShowPressAnyKey();
     }
 
@@ -46,7 +46,7 @@ internal class OpeningScene
             lock (_lk)
             {
                 for (int i = -1; i <= 6; i++)
-                { 
+                {
                     int py = y + i;
                     if (py >= 0 && py < Console.WindowHeight)
                     {
@@ -67,7 +67,7 @@ internal class OpeningScene
     {
         string msg = "- PRESS ANY KEY TO START -";
         int mx = (Console.WindowWidth - msg.Length) / 2;
-        int my = _lb + 2; 
+        int my = _lb + 2;
 
         while (!Console.KeyAvailable)
         {
@@ -80,11 +80,11 @@ internal class OpeningScene
             lock (_lk)
             {
                 Console.SetCursorPosition(mx, my);
-                Console.Write(new string(' ', msg.Length)); 
+                Console.Write(new string(' ', msg.Length));
             }
             Thread.Sleep(500);
         }
-        Console.ReadKey(true); 
+        Console.ReadKey(true);
     }
 
     private void AnimateChicks()

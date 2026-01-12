@@ -7,10 +7,16 @@ public class GameManager
 {
     Tutorial_Dungeon _tutorial_Dungeon;
     Dungeon_01 _dungeon01;
+    Dungeon_02 _dungeon02;
+    Dungeon_Last _dungeon_Last;
     Player _player;
     Player_01 _player_01;
+    Player_02 _player_02;
+    Player_Last _player_Last;
     MovePlayer _movePlayer;
     MovePlayer_01 _movePlayer_01;
+    MovePlayer_02 _movePlayer_02;
+    MovePlayer_Last _movePlayer_Last;
     Story _story;
 
     public void Run()
@@ -19,7 +25,7 @@ public class GameManager
 
         Init();
 
-        
+        /*
         OpeningScene opening = new OpeningScene();
         opening.Play();
 
@@ -27,8 +33,8 @@ public class GameManager
         Console.WriteLine("🐣🐥🐤 Now Loading... 🐣🐥🐤");
         Thread.Sleep(1000);
         Console.Clear();
-        
-
+        */
+        /*
         _story.PrintTutorial();
 
         while (true)
@@ -93,10 +99,57 @@ public class GameManager
                 break;
             }
         }
+        */
+        Console.Clear();
+        _story.PrintTutorial3();
 
+        Init3();
 
+        while (true)
+        {
+            Console.SetCursorPosition(0, 4);
+            _dungeon02.PrintMap();
 
-        
+            ConsoleKey inputKey = _player_02.UserInput();
+
+            Result result = _movePlayer_02.PlayerMove(inputKey);
+
+            if (_player_02.PlayerPosition.X == 12 && _player_02.PlayerPosition.Y == 12)
+            {
+                Console.SetCursorPosition(0, 4);
+                _dungeon02.PrintMap();
+
+                Console.Beep(784, 150);
+                Console.Beep(740, 150);
+                Console.Beep(622, 150);
+                Console.Beep(440, 150);
+                Console.Beep(415, 150);
+                Console.Beep(659, 150);
+                Console.Beep(831, 150);
+                Console.Beep(1047, 400);
+
+                Console.WriteLine("🐣🐥🐤 Now Loading... 🐣🐥🐤");
+                Thread.Sleep(1000);
+                break;
+            }
+        }
+
+        Console.Clear();
+        _story.PrintTutorial_Last();
+
+        Init_Last();
+
+        while (true)
+        {
+            Console.SetCursorPosition(0, 4);
+            _dungeon_Last.PrintMap();
+
+            ConsoleKey inputKey = _player_Last.UserInput();
+
+            Result result = _movePlayer_Last.PlayerMove(inputKey);                  
+        }
+
+        /*
         Console.CursorVisible = false;
 
         EndingScene scene = new EndingScene();
@@ -109,7 +162,7 @@ public class GameManager
 
         Console.ResetColor();
         Console.Clear();
-        
+        */
     }
 
     public void Init()
@@ -131,5 +184,25 @@ public class GameManager
 
         _dungeon01.Init();
         _dungeon01.SpawnPlayer(_player_01);
+    }
+
+    public void Init3()
+    {
+        _dungeon02 = new Dungeon_02();
+        _player_02 = new Player_02();
+        _movePlayer_02 = new MovePlayer_02(_player_02, _dungeon02);
+
+        _dungeon02.Init();
+        _dungeon02.SpawnPlayer(_player_02);
+    }
+
+    public void Init_Last()
+    {
+        _dungeon_Last = new Dungeon_Last();
+        _player_Last = new Player_Last();
+        _movePlayer_Last = new MovePlayer_Last(_player_Last, _dungeon_Last);
+
+        _dungeon_Last.Init();
+        _dungeon_Last.SpawnPlayer(_player_Last);
     }
 }

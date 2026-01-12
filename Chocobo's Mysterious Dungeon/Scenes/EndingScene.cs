@@ -15,14 +15,14 @@ public class EndingScene
         {
             Console.Clear();
             Console.SetCursorPosition(centerX, centerY);
-            Console.Write("🐣"); 
+            Console.Write("🐣");
             Console.SetCursorPosition(parentX, centerY);
             Console.Write("🐤");
 
             parentX -= 1;
             Thread.Sleep(50);
         }
-       
+
         Console.Clear();
         Console.SetCursorPosition(centerX, centerY);
         Console.Write("🐣 🐤");

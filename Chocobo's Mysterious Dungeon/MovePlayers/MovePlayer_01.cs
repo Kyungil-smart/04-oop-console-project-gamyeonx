@@ -1,8 +1,8 @@
 ﻿using System;
 
 
-    internal class MovePlayer_01
-    {
+internal class MovePlayer_01
+{
     Player_01 _player_01;
     Dungeon_01 _dungeon_01;
 
