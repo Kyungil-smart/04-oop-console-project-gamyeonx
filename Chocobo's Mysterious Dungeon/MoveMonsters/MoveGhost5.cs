@@ -23,7 +23,7 @@ public class MoveGhost5
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                nextPosition.X += random.Next(-1, 1);
+                nextPosition.X--;
                 break;
             case ConsoleKey.DownArrow:
                 nextPosition.Y++;
@@ -32,7 +32,7 @@ public class MoveGhost5
                 nextPosition.Y--;
                 break;
             case ConsoleKey.RightArrow:
-                nextPosition.X += random.Next(-1, 1);
+                nextPosition.X++;
                 break;
             default:
                 return Result.Fail();

@@ -1,32 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
+using static System.Net.Mime.MediaTypeNames;
 
-class Solution
+public class MonsterBFS
 {
-    public int solution(int[,] maps)
+    private Dungeon_01 _dungeon;
+
+    public MonsterBFS(Dungeon_01 dungeon)
     {
-        int answer = 0;
-        int maxY = maps.GetLength(0);
-        int maxX = maps.GetLength(1);
+        _dungeon = dungeon;
+    }
+    public Object.Position solution(Object.Position monsterPosition, Object.Position playerPosition)
+    {
+        int width = 20;
+        int height = 20;
 
-        int[] dy = { -1, 1, 0, 0 };
         int[] dx = { 0, 0, -1, 1 };
+        int[] dy = { -1, 1, 0, 0 };
 
-        int[,] moveCount = new int[maxY, maxX];
+        int[,] moveCount = new int[width, height];
+        Object.Position[,] origin = new Object.Position[width, height];
 
-        Queue<(int, int)> queue = new Queue<(int, int)>();
-        queue.Enqueue((0, 0));
+        Queue<Object.Position> queue = new Queue<Object.Position>();
+        queue.Enqueue(monsterPosition);
         moveCount[0, 0] = 1;
 
         while (queue.Count > 0)
         {
-            (int Y, int X) current = queue.Dequeue();
+            Object.Position current = queue.Dequeue();
             int currentY = current.Y;
             int currentX = current.X;
 
-            if (currentY == maxY - 1 && currentX == maxX - 1)
+            if (currentY == playerPosition.X && currentX == playerPosition.Y)
             {
-                return answer = moveCount[currentY, currentX];
+                return TraceNextStep(monsterPosition, playerPosition, origin);
             }
 
             for (int i = 0; i < 4; i++)
@@ -34,17 +41,31 @@ class Solution
                 int targetY = currentY + dy[i];
                 int targetX = currentX + dx[i];
 
-                if (targetY >= 0 && targetY < maxY && targetX >= 0 && targetX < maxX)
+                if (targetY >= 0 && targetY < width && targetX >= 0 && targetX < height)
                 {
-                    if (maps[targetY, targetX] == 1 && moveCount[targetY, targetX] == 0)
+                    string _targetObject = _dungeon.GetObject(targetX, targetY);
+                    if ((_targetObject != Object.WALL && moveCount[targetX, targetY] == 0) || (targetX == playerPosition.X && targetY == playerPosition.Y))
                     {
                         moveCount[targetY, targetX] = moveCount[currentY, currentX] + 1;
-                        queue.Enqueue((targetY, targetX));
+                        origin[targetX, targetY] = current;
+                        queue.Enqueue(new Object.Position { X = targetX, Y = targetY });
                     }
                 }
             }
         }
 
-        return answer = -1;
+        return monsterPosition;
+    }
+
+    private Object.Position TraceNextStep(Object.Position start, Object.Position goal, Object.Position[,] origin)
+    {
+        Object.Position current = goal;
+        while (origin[current.X, current.Y].X != start.X || origin[current.X, current.Y].Y != start.Y)
+        {
+            current = origin[current.X, current.Y];
+            if (current.X == 0 && current.Y == 0) break;
+        }
+
+        return current;
     }
 }

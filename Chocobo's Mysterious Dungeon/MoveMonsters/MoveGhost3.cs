@@ -23,20 +23,16 @@ public class MoveGhost3
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                nextPosition.X += random.Next(-1, 1);
-                nextPosition.Y += random.Next(-1, 1);
+                nextPosition.X++;
                 break;
             case ConsoleKey.DownArrow:
-                nextPosition.X += random.Next(-1, 1);
-                nextPosition.Y += random.Next(-1, 1);
+                nextPosition.X--;
                 break;
             case ConsoleKey.LeftArrow:
-                nextPosition.X += random.Next(-1, 1);
-                nextPosition.Y += random.Next(-1, 1);
+                nextPosition.Y++;
                 break;
             case ConsoleKey.RightArrow:
-                nextPosition.X += random.Next(-1, 1);
-                nextPosition.Y += random.Next(-1, 1);
+                nextPosition.Y--;
                 break;
             default:
                 return Result.Fail();
