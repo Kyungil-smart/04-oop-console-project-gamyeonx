@@ -23,15 +23,19 @@ public class MoveGhost4
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                nextPosition.Y++;
-                break;
-            case ConsoleKey.DownArrow:
+                nextPosition.X++;
                 nextPosition.Y--;
                 break;
-            case ConsoleKey.LeftArrow:
+            case ConsoleKey.DownArrow:
+                nextPosition.Y++;
                 nextPosition.X++;
                 break;
+            case ConsoleKey.LeftArrow:
+                nextPosition.X--;
+                nextPosition.Y++;
+                break;
             case ConsoleKey.RightArrow:
+                nextPosition.Y--;
                 nextPosition.X--;
                 break;
             default:
@@ -58,16 +62,6 @@ public class MoveGhost4
         if (_dungeon_02.GetObject(nextPosition.X, nextPosition.Y) == Object.GOAL)
         {
             _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.GHOST);
-            _onGoal = true;
-        }
-        else
-        {
-            _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.GHOST);
-        }
-
-        if (_dungeon_02.GetObject(nextPosition.X, nextPosition.Y) == Object.PLAYER)
-        {
-            _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.DEATH);
             _onGoal = true;
         }
         else

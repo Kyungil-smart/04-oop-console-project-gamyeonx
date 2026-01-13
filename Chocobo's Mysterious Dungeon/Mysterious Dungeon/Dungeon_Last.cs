@@ -26,26 +26,26 @@ public class Dungeon_Last
                 else _map[i, j] = Object.EMPTY;
             }
         }
-            _map[2, 1] = Object.WALL;
-            _map[2, 2] = Object.WALL;
-            _map[1, 2] = Object.WALL;
-            _map[2, 7] = Object.WALL;
-            _map[2, 8] = Object.WALL;
-            _map[1, 7] = Object.WALL;
-            _map[7, 1] = Object.WALL;
-            _map[7, 2] = Object.WALL;
-            _map[8, 2] = Object.WALL;
-            _map[7, 7] = Object.WALL;
-            _map[7, 8] = Object.WALL;
-            _map[8, 7] = Object.WALL;
+        _map[2, 1] = Object.WALL;
+        _map[2, 2] = Object.WALL;
+        _map[1, 2] = Object.WALL;
+        _map[2, 7] = Object.WALL;
+        _map[2, 8] = Object.WALL;
+        _map[1, 7] = Object.WALL;
+        _map[7, 1] = Object.WALL;
+        _map[7, 2] = Object.WALL;
+        _map[8, 2] = Object.WALL;
+        _map[7, 7] = Object.WALL;
+        _map[7, 8] = Object.WALL;
+        _map[8, 7] = Object.WALL;
 
-            _map[1, 1] = Object.DUMMY_02;
-            _map[1, 8] = Object.DUMMY_01;
-            _map[8, 8] = Object.DUMMY_03;
-            _map[8, 1] = Object.DUMMY_04;
-            _map[3, 5] = Object.BABY;
-            _map[1, 4] = Object.BOSS;
-            
+        _map[1, 1] = Object.DUMMY_02;
+        _map[1, 8] = Object.DUMMY_01;
+        _map[8, 8] = Object.DUMMY_03;
+        _map[8, 1] = Object.DUMMY_04;
+        _map[3, 5] = Object.BABY;
+        _map[1, 4] = Object.BOSS;
+
     }
 
     public void PrintMap()

@@ -59,7 +59,7 @@ public class Dungeon_02
         _map[18, 13] = Object.WALL;
         _map[16, 14] = Object.WALL;
         _map[16, 15] = Object.WALL;
-        for(int i = 3; i < 10; i++)
+        for (int i = 3; i < 10; i++)
         {
             _map[18, i] = Object.WALL;
         }

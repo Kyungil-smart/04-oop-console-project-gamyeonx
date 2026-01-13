@@ -38,6 +38,7 @@ public class MovePlayer_Last
 
         string _tatgetTutorial = _dungeon_Last.GetObject(nextPosition.X, nextPosition.Y);
 
+        // 보스를 건드리려는 나쁜 플레이를 방지.
         if (_tatgetTutorial == Object.WALL || _tatgetTutorial == Object.BOSS)
         {
             return Result.Fail();

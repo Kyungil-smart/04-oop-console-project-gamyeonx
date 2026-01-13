@@ -21,13 +21,13 @@ public class MoveMonster2
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                nextPosition.X--;
+                nextPosition.X++;
                 break;
             case ConsoleKey.DownArrow:
                 nextPosition.Y++;
                 break;
             case ConsoleKey.LeftArrow:
-                nextPosition.X++;
+                nextPosition.X--;
                 break;
             case ConsoleKey.RightArrow:
                 nextPosition.Y--;
@@ -38,7 +38,8 @@ public class MoveMonster2
 
         string _tatgetTutorial = _dungeon_01.GetObject(nextPosition.X, nextPosition.Y);
 
-        if (_tatgetTutorial == Object.WALL || _tatgetTutorial == Object.MONSTER)
+        if (_tatgetTutorial == Object.WALL || _tatgetTutorial == Object.MONSTER ||
+            _tatgetTutorial == Object.BOSS || _tatgetTutorial == Object.WALL2)
         {
             return Result.Fail();
         }

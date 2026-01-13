@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{315F065B-134B-40E9-9C7C-6B25B6482A77}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Chocobo_s_Mysterious_Dungeon</RootNamespace>
+    <AssemblyName>Chocobo%27s Mysterious Dungeon</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Monsters\Boss.cs" />
+    <Compile Include="Monsters\Monster.cs" />
+    <Compile Include="Monsters\Ghost.cs" />
+    <Compile Include="MoveMonsters\MoveBoss.cs" />
+    <Compile Include="MoveMonsters\MoveGhost.cs" />
+    <Compile Include="MoveMonsters\MoveGhost2.cs" />
+    <Compile Include="MoveMonsters\MoveGhost3.cs" />
+    <Compile Include="MoveMonsters\MoveGhost4.cs" />
+    <Compile Include="MoveMonsters\MoveGhost5.cs" />
+    <Compile Include="MoveMonsters\MoveGhost6.cs" />
+    <Compile Include="MoveMonsters\MoveGhost7.cs" />
+    <Compile Include="MoveMonsters\MoveMonster.cs" />
+    <Compile Include="MoveMonsters\MoveMonster2.cs" />
+    <Compile Include="MoveMonsters\MoveMonster3.cs" />
+    <Compile Include="MoveMonsters\MoveMonster4.cs" />
+    <Compile Include="MoveMonsters\MoveMonster5.cs" />
+    <Compile Include="MovePlayers\MovePlayer_02.cs" />
+    <Compile Include="MovePlayers\MovePlayer_Last.cs" />
+    <Compile Include="Players\Player_02.cs" />
+    <Compile Include="Players\Player_Last.cs" />
+    <Compile Include="Scenes\EndingScene.cs" />
+    <Compile Include="MovePlayers\MovePlayer_01.cs" />
+    <Compile Include="Players\Player_01.cs" />
+    <Compile Include="GameManager.cs" />
+    <Compile Include="MovePlayers\MovePlayer.cs" />
+    <Compile Include="Mysterious Dungeon\Dungeon_01.cs" />
+    <Compile Include="Mysterious Dungeon\Dungeon_02.cs" />
+    <Compile Include="Mysterious Dungeon\Dungeon_Last.cs" />
+    <Compile Include="Mysterious Dungeon\Tutorial_Dungeon.cs" />
+    <Compile Include="Object.cs" />
+    <Compile Include="Scenes\OpeningScene.cs" />
+    <Compile Include="Players\Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="Story.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

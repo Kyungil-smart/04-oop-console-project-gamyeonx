@@ -21,16 +21,16 @@ public class MoveMonster
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                nextPosition.X++;
+                nextPosition.X--;
                 break;
             case ConsoleKey.DownArrow:
-                nextPosition.Y--;
+                nextPosition.X++;
                 break;
             case ConsoleKey.LeftArrow:
-                nextPosition.Y++;
+                nextPosition.Y--;
                 break;
             case ConsoleKey.RightArrow:
-                nextPosition.X--;
+                nextPosition.Y++;
                 break;
             default:
                 return Result.Fail();
@@ -38,7 +38,11 @@ public class MoveMonster
 
         string _tatgetTutorial = _dungeon_01.GetObject(nextPosition.X, nextPosition.Y);
 
-        if (_tatgetTutorial == Object.WALL || _tatgetTutorial == Object.MONSTER)
+        // 이거 생각보다 중요했다.
+        // 안그러면 지들끼리 잡아먹는다.
+        // 개체수가 늘면 늘수록 당황스러워진다.
+        if (_tatgetTutorial == Object.WALL || _tatgetTutorial == Object.MONSTER ||
+            _tatgetTutorial == Object.BOSS || _tatgetTutorial == Object.WALL2)
         {
             return Result.Fail();
         }

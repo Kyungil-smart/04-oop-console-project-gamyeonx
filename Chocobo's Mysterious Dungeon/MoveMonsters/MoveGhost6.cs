@@ -23,16 +23,16 @@ public class MoveGhost6
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                nextPosition.X++;
-                break;
-            case ConsoleKey.DownArrow:
                 nextPosition.Y--;
                 break;
+            case ConsoleKey.DownArrow:
+                nextPosition.X--;
+                break;
             case ConsoleKey.LeftArrow:
-                nextPosition.Y++; 
+                nextPosition.X++;
                 break;
             case ConsoleKey.RightArrow:
-                nextPosition.X--;
+                nextPosition.Y++; 
                 break;
             default:
                 return Result.Fail();
@@ -58,16 +58,6 @@ public class MoveGhost6
         if (_dungeon_02.GetObject(nextPosition.X, nextPosition.Y) == Object.GOAL)
         {
             _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.GHOST);
-            _onGoal = true;
-        }
-        else
-        {
-            _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.GHOST);
-        }
-
-        if (_dungeon_02.GetObject(nextPosition.X, nextPosition.Y) == Object.PLAYER)
-        {
-            _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.DEATH);
             _onGoal = true;
         }
         else

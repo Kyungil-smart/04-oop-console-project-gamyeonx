@@ -1,0 +1,7 @@
+C:\Geunhyung\Chocobo's Mysterious Dungeon\bin\Debug\Chocobo's Mysterious Dungeon.exe.config
+C:\Geunhyung\Chocobo's Mysterious Dungeon\bin\Debug\Chocobo's Mysterious Dungeon.exe
+C:\Geunhyung\Chocobo's Mysterious Dungeon\bin\Debug\Chocobo's Mysterious Dungeon.pdb
+C:\Geunhyung\Chocobo's Mysterious Dungeon\obj\Debug\Chocobo's Mysterious Dungeon.csproj.AssemblyReference.cache
+C:\Geunhyung\Chocobo's Mysterious Dungeon\obj\Debug\Chocobo's Mysterious Dungeon.csproj.CoreCompileInputs.cache
+C:\Geunhyung\Chocobo's Mysterious Dungeon\obj\Debug\Chocobo's Mysterious Dungeon.exe
+C:\Geunhyung\Chocobo's Mysterious Dungeon\obj\Debug\Chocobo's Mysterious Dungeon.pdb

@@ -1,0 +1,615 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\moveplayers\\moveplayer_02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:moveplayers\\moveplayer_02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\mysterious dungeon\\dungeon_02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:mysterious dungeon\\dungeon_02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\mysterious dungeon\\dungeon_01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:mysterious dungeon\\dungeon_01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\monsters\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:monsters\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\monsters\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:monsters\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\movemonsters\\moveghost7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\moveghost7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\movemonsters\\moveghost4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\moveghost4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\movemonsters\\moveghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\moveghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\movemonsters\\moveghost3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\moveghost3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|c:\\geunhyung\\chocobo\u0027s mysterious dungeon\\movemonsters\\moveboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\moveboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|c:\\geunhyung\\chocobo\u0027s mysterious dungeon\\movemonsters\\movemonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\movemonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\moveplayers\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:moveplayers\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|c:\\geunhyung\\chocobo\u0027s mysterious dungeon\\moveplayers\\moveplayer_01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:moveplayers\\moveplayer_01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\movemonsters\\movemonster2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\movemonster2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|c:\\geunhyung\\chocobo\u0027s mysterious dungeon\\movemonsters\\movemonster5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\movemonster5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\movemonsters\\movemonster4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\movemonster4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\movemonsters\\movemonster3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\movemonster3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\mysterious dungeon\\tutorial_dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:mysterious dungeon\\tutorial_dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\players\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:players\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\scenes\\openingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:scenes\\openingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\monsters\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:monsters\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\moveplayers\\moveplayer_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:moveplayers\\moveplayer_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\mysterious dungeon\\dungeon_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:mysterious dungeon\\dungeon_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\movemonsters\\moveghost6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\moveghost6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|c:\\geunhyung\\chocobo\u0027s mysterious dungeon\\movemonsters\\moveghost5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\moveghost5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\movemonsters\\moveghost2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:movemonsters\\moveghost2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\scenes\\endingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:scenes\\endingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\players\\player_01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:players\\player_01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\players\\player_02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:players\\player_02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\players\\player_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:players\\player_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315F065B-134B-40E9-9C7C-6B25B6482A77}|Chocobo\u0027s Mysterious Dungeon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\GameManager.cs",
+              "RelativeDocumentMoniker": "GameManager.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\GameManager.cs",
+              "RelativeToolTip": "GameManager.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAcwJQAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:23:47.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Monsters\\Monster.cs",
+              "RelativeDocumentMoniker": "Monsters\\Monster.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Monsters\\Monster.cs",
+              "RelativeToolTip": "Monsters\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T02:55:13.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Boss.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Monsters\\Boss.cs",
+              "RelativeDocumentMoniker": "Monsters\\Boss.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Monsters\\Boss.cs",
+              "RelativeToolTip": "Monsters\\Boss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T02:57:40.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dungeon_01.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Mysterious Dungeon\\Dungeon_01.cs",
+              "RelativeDocumentMoniker": "Mysterious Dungeon\\Dungeon_01.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Mysterious Dungeon\\Dungeon_01.cs",
+              "RelativeToolTip": "Mysterious Dungeon\\Dungeon_01.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAuwEIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T06:21:34.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dungeon_02.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Mysterious Dungeon\\Dungeon_02.cs",
+              "RelativeDocumentMoniker": "Mysterious Dungeon\\Dungeon_02.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Mysterious Dungeon\\Dungeon_02.cs",
+              "RelativeToolTip": "Mysterious Dungeon\\Dungeon_02.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T07:35:02.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovePlayer_02.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MovePlayers\\MovePlayer_02.cs",
+              "RelativeDocumentMoniker": "MovePlayers\\MovePlayer_02.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MovePlayers\\MovePlayer_02.cs",
+              "RelativeToolTip": "MovePlayers\\MovePlayer_02.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:52:54.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MoveGhost7.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost7.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveGhost7.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost7.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveGhost7.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:34:24.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoveGhost4.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost4.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveGhost4.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost4.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveGhost4.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:34:05.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MoveGhost.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveGhost.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveGhost.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:33:44.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MoveGhost3.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost3.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveGhost3.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost3.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveGhost3.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvyMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:34:00.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MoveBoss.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveBoss.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveBoss.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveBoss.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveBoss.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T01:45:55.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MoveMonster.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveMonster.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveMonster.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA+wCMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T03:02:31.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Object.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Object.cs",
+              "RelativeDocumentMoniker": "Object.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Object.cs",
+              "RelativeToolTip": "Object.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T07:46:53.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MovePlayer.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MovePlayers\\MovePlayer.cs",
+              "RelativeDocumentMoniker": "MovePlayers\\MovePlayer.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MovePlayers\\MovePlayer.cs",
+              "RelativeToolTip": "MovePlayers\\MovePlayer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:46:24.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MovePlayer_01.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MovePlayers\\MovePlayer_01.cs",
+              "RelativeDocumentMoniker": "MovePlayers\\MovePlayer_01.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MovePlayers\\MovePlayer_01.cs",
+              "RelativeToolTip": "MovePlayers\\MovePlayer_01.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T00:59:01.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MoveMonster2.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster2.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveMonster2.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster2.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveMonster2.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwC4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:38:53.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MoveMonster5.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster5.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveMonster5.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster5.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveMonster5.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T01:20:58.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MoveMonster4.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster4.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveMonster4.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster4.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveMonster4.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:54:08.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MoveMonster3.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster3.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveMonster3.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveMonster3.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveMonster3.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:38:59.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Story.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Story.cs",
+              "RelativeDocumentMoniker": "Story.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Story.cs",
+              "RelativeToolTip": "Story.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:05:54.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Tutorial_Dungeon.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Mysterious Dungeon\\Tutorial_Dungeon.cs",
+              "RelativeDocumentMoniker": "Mysterious Dungeon\\Tutorial_Dungeon.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Mysterious Dungeon\\Tutorial_Dungeon.cs",
+              "RelativeToolTip": "Mysterious Dungeon\\Tutorial_Dungeon.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowDsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T07:35:48.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Players\\Player.cs",
+              "RelativeDocumentMoniker": "Players\\Player.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Players\\Player.cs",
+              "RelativeToolTip": "Players\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:36:36.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OpeningScene.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Scenes\\OpeningScene.cs",
+              "RelativeDocumentMoniker": "Scenes\\OpeningScene.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Scenes\\OpeningScene.cs",
+              "RelativeToolTip": "Scenes\\OpeningScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:38:27.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MovePlayer_Last.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MovePlayers\\MovePlayer_Last.cs",
+              "RelativeDocumentMoniker": "MovePlayers\\MovePlayer_Last.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MovePlayers\\MovePlayer_Last.cs",
+              "RelativeToolTip": "MovePlayers\\MovePlayer_Last.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T01:08:03.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Ghost.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Monsters\\Ghost.cs",
+              "RelativeDocumentMoniker": "Monsters\\Ghost.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Monsters\\Ghost.cs",
+              "RelativeToolTip": "Monsters\\Ghost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T02:56:36.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Dungeon_Last.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Mysterious Dungeon\\Dungeon_Last.cs",
+              "RelativeDocumentMoniker": "Mysterious Dungeon\\Dungeon_Last.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Mysterious Dungeon\\Dungeon_Last.cs",
+              "RelativeToolTip": "Mysterious Dungeon\\Dungeon_Last.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA3wEEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T07:35:16.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MoveGhost6.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost6.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveGhost6.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost6.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveGhost6.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:34:15.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MoveGhost5.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost5.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveGhost5.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost5.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveGhost5.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T01:33:02.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MoveGhost2.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost2.cs",
+              "RelativeDocumentMoniker": "MoveMonsters\\MoveGhost2.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\MoveMonsters\\MoveGhost2.cs",
+              "RelativeToolTip": "MoveMonsters\\MoveGhost2.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvxwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:33:54.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EndingScene.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Scenes\\EndingScene.cs",
+              "RelativeDocumentMoniker": "Scenes\\EndingScene.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Scenes\\EndingScene.cs",
+              "RelativeToolTip": "Scenes\\EndingScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T12:29:20.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Player_01.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Players\\Player_01.cs",
+              "RelativeDocumentMoniker": "Players\\Player_01.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Players\\Player_01.cs",
+              "RelativeToolTip": "Players\\Player_01.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T16:50:21.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Player_02.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Players\\Player_02.cs",
+              "RelativeDocumentMoniker": "Players\\Player_02.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Players\\Player_02.cs",
+              "RelativeToolTip": "Players\\Player_02.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:49:36.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Player_Last.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Players\\Player_Last.cs",
+              "RelativeDocumentMoniker": "Players\\Player_Last.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Players\\Player_Last.cs",
+              "RelativeToolTip": "Players\\Player_Last.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T01:06:13.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Result.cs",
+              "RelativeDocumentMoniker": "Result.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Result.cs",
+              "RelativeToolTip": "Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:39:14.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Geunhyung\\Chocobo\u0027s Mysterious Dungeon\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T07:32:40.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

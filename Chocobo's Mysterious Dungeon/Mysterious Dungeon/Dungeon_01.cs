@@ -12,7 +12,7 @@ public class Dungeon_01
     int _height;
 
     public void Init()
-    {
+    {   // 고정된 골위치를 위해 일을 안하는 랜덤 맵...
         _width = random.Next(20, 20);
         _height = random.Next(20, 20);
         _map = new string[_width, _height];
@@ -31,7 +31,7 @@ public class Dungeon_01
 
         for (int i = 5; i < 16; i++)
         {
-            _map[5, i] = Object.WALL;
+            _map[5, i] = Object.WALL2;
         }
         for (int i = 8; i < 19; i++)
         {
@@ -43,38 +43,37 @@ public class Dungeon_01
         }
         for (int i = 5; i < 15; i++)
         {
-            _map[i, 5] = Object.WALL;
+            _map[i, 5] = Object.WALL2;
         }
-        _map[1, 6] = Object.WALL;
-        _map[2, 6] = Object.WALL;
-        _map[3, 6] = Object.WALL;
-        _map[6, 9] = Object.WALL;
-        _map[5, 9] = Object.WALL;
-        _map[4, 9] = Object.WALL;
+        _map[1, 6] = Object.WALL2;
+        _map[2, 6] = Object.WALL2;
+        _map[3, 6] = Object.WALL2;
+        _map[6, 9] = Object.WALL2;
+        _map[5, 9] = Object.WALL2;
+        _map[4, 9] = Object.WALL2;
         _map[1, 12] = Object.WALL;
-        _map[2, 12] = Object.WALL;
-        _map[3, 12] = Object.WALL;
-        _map[5, 1] = Object.WALL;
+        _map[2, 12] = Object.WALL2;
+        _map[3, 12] = Object.WALL2;
+        _map[5, 1] = Object.WALL2;
         _map[5, 2] = Object.WALL;
         _map[5, 3] = Object.WALL;
-        _map[7, 6] = Object.WALL;
-        _map[7, 5] = Object.WALL;
-        _map[7, 4] = Object.WALL;
+        _map[7, 6] = Object.WALL2;
+        _map[7, 5] = Object.WALL2;
+        _map[7, 4] = Object.WALL2;
         _map[9, 1] = Object.WALL;
-        _map[9, 2] = Object.WALL;
-        _map[9, 3] = Object.WALL;
-        _map[11, 6] = Object.WALL;
-        _map[11, 5] = Object.WALL;
-        _map[11, 4] = Object.WALL;
-        _map[16, 15] = Object.WALL;
+        _map[9, 2] = Object.WALL2;
+        _map[9, 3] = Object.WALL2;
+        _map[11, 6] = Object.WALL2;
+        _map[11, 5] = Object.WALL2;
+        _map[11, 4] = Object.WALL2;
+        _map[16, 15] = Object.WALL2;
         _map[17, 15] = Object.WALL;
-        _map[11, 15] = Object.WALL;
-        _map[19, 13] = Object.WALL;
-        _map[18, 13] = Object.WALL;
-        _map[17, 13] = Object.WALL;
+        _map[11, 15] = Object.WALL2;
+        _map[18, 13] = Object.WALL2;
+        _map[17, 13] = Object.WALL2;
         _map[16, 11] = Object.WALL;
-        _map[17, 11] = Object.WALL;
-        _map[11, 11] = Object.WALL;
+        _map[17, 11] = Object.WALL2;
+        _map[11, 11] = Object.WALL2;
 
         _map[17, 18] = Object.GOAL;
     }
@@ -112,6 +111,13 @@ public class Dungeon_01
         SpawnEmptyObject(out int X, out int Y);
         SetObject(X, Y, Object.MONSTER);
         monster.Init(X, Y);
+    }
+
+    public void SpawnBoss(Boss boss)
+    {
+        SpawnEmptyObject(out int X, out int Y);
+        SetObject(X, Y, Object.BOSS_ON_GOAL);
+        boss.Init(X, Y);
     }
 
     public void SpawnObject(string objectString)

@@ -23,13 +23,13 @@ public class MoveGhost7
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                nextPosition.X++;
+                nextPosition.Y++;
                 break;
             case ConsoleKey.DownArrow:
-                nextPosition.X--;
+                nextPosition.X++;
                 break;
             case ConsoleKey.LeftArrow:
-                nextPosition.Y++;
+                nextPosition.X--;
                 break;
             case ConsoleKey.RightArrow:
                 nextPosition.Y--;
@@ -58,16 +58,6 @@ public class MoveGhost7
         if (_dungeon_02.GetObject(nextPosition.X, nextPosition.Y) == Object.GOAL)
         {
             _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.GHOST);
-            _onGoal = true;
-        }
-        else
-        {
-            _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.GHOST);
-        }
-
-        if (_dungeon_02.GetObject(nextPosition.X, nextPosition.Y) == Object.PLAYER)
-        {
-            _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.DEATH);
             _onGoal = true;
         }
         else

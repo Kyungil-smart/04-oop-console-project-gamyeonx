@@ -65,16 +65,6 @@ public class MoveGhost2
             _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.GHOST);
         }
 
-        if (_dungeon_02.GetObject(nextPosition.X, nextPosition.Y) == Object.PLAYER)
-        {
-            _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.DEATH);
-            _onGoal = true;
-        }
-        else
-        {
-            _dungeon_02.SetObject(nextPosition.X, nextPosition.Y, Object.GHOST);
-        }
-
         _ghost.Move(nextPosition);
 
         return Result.Success();

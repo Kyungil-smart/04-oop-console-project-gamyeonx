@@ -2,7 +2,7 @@
 
 
 public class Story
-{
+{   // 안되면 설정으로 매꾸는 나쁜 마인드...
     public void PrintTutorial()
     {
         Console.WriteLine("조작키: ←↕→");
@@ -14,7 +14,7 @@ public class Story
         Console.WriteLine("조작키: ←↕→");
         Console.WriteLine("슬라임을 피해 던전의 입구를 찾아라: 🕳️");
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine("초코보는 폭력이 싫어졌다.");
+        Console.WriteLine("초코보는 폭력을 싫어한다.");
         Console.ResetColor();
         Console.WriteLine();
     }

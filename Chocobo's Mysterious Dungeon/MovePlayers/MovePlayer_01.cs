@@ -2,7 +2,8 @@
 
 
 internal class MovePlayer_01
-{
+{   // 던전마다 조작방식이 다를 필요도 쪼~금 있고
+    // 나쁜 예시로 교보재로 써도 변명의 여지가 없다.
     Player_01 _player_01;
     Dungeon_01 _dungeon_01;
 
@@ -17,33 +18,32 @@ internal class MovePlayer_01
     public Result PlayerMove(ConsoleKey inputKey)
     {
         Object.Position nextPosition = _player_01.PlayerPosition;
-        Object.eMoveDir dir = Object.eMoveDir.NONE;
 
         switch (inputKey)
         {
             case ConsoleKey.UpArrow:
-                dir = Object.eMoveDir.UP;
                 nextPosition.X--;
                 break;
             case ConsoleKey.DownArrow:
-                dir = Object.eMoveDir.DOWN;
                 nextPosition.X++;
                 break;
             case ConsoleKey.LeftArrow:
-                dir = Object.eMoveDir.LEFT;
                 nextPosition.Y--;
                 break;
             case ConsoleKey.RightArrow:
-                dir = Object.eMoveDir.RIGHT;
                 nextPosition.Y++;
                 break;
             default:
                 return Result.Fail();
         }
 
+        // 이름을 바꾸는걸 깜빡했다.
+        // 하지만 바꾸지 않는다.
         string _tatgetTutorial = _dungeon_01.GetObject(nextPosition.X, nextPosition.Y);
 
-        if (_tatgetTutorial == Object.WALL)
+        // 몬스터와 겹쳐야 죽는 판정이라 벽만 판정을 만들었다.
+        if (_tatgetTutorial == Object.WALL ||
+            _tatgetTutorial == Object.BOSS || _tatgetTutorial == Object.WALL2)
         {
             return Result.Fail();
         }
